@@ -1166,3 +1166,80 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.28-13.18.32:305][907]Cmd: MAP CHECKDEP NOCLEARLOG
 [2023.02.28-13.18.32:305][907]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
 [2023.02.28-13.18.32:305][907]LogFileHelpers: Loading map 'VasinLVL' took 0.128
+[2023.02.28-13.20.56:053][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.02.28-13.20.56:154][338]LogAssetEditorSubsystem: Opening Asset editor for World /Game/lvl2.lvl2
+[2023.02.28-13.20.56:154][338]Cmd: MAP LOAD FILE="../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/lvl2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.02.28-13.20.56:154][338]LightingResults: New page: Lighting Build
+[2023.02.28-13.20.56:154][338]LoadErrors: New page: Loading map: lvl2.umap
+[2023.02.28-13.20.56:156][338]LogWorld: UWorld::CleanupWorld for VasinLVL, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.20.56:156][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.20.56:156][338]MapCheck: New page: Map Check
+[2023.02.28-13.20.56:156][338]LightingResults: New page: Lighting Build
+[2023.02.28-13.20.56:162][338]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.28-13.20.56:163][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.02.28-13.20.56:165][338]LogWorld: UWorld::CleanupWorld for lvl2, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.20.56:165][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.20.56:172][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.02.28-13.20.56:178][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.02.28-13.20.56:180][338]LogAudio: Display: Audio Device (ID: 1) registered with world 'lvl2'.
+[2023.02.28-13.20.56:181][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.20.56:181][338]LogAIModule: Creating AISystem for world lvl2
+[2023.02.28-13.20.56:181][338]LogWorldPartition: ULevel::OnLevelLoaded(lvl2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.28-13.20.56:181][338]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.28-13.20.56:181][338]LogWorldPartition: UWorldPartition::Initialize(Asset=lvl2, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.28-13.20.56:183][338]LogContentBundle: [Container: lvl2] Creating new contrainer.
+[2023.02.28-13.20.56:183][338]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 536 ms)
+[2023.02.28-13.20.56:203][338]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.28-13.20.56:213][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.02.28-13.20.56:220][338]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.28-13.20.56:221][338]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2023.02.28-13.20.56:221][338]LogFileHelpers: Loading map 'lvl2' took 0.066
+[2023.02.28-13.20.59:219][687]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.02.28-13.21.01:758][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.02.28-13.21.01:758][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.02.28-13.21.01:759][959]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/lvl2.lvl2:PersistentLevel.DirectionalLight_0
+[2023.02.28-13.21.01:759][959]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/lvl2.lvl2:PersistentLevel.DirectionalLight_0
+[2023.02.28-13.21.01:862][963]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.02.28-13.21.01:862][963]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.02.28-13.21.01:866][963]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/lvl2.lvl2:PersistentLevel.DirectionalLight_UAID_002B67EC6648EA6A01_1277703279
+[2023.02.28-13.21.01:866][963]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/lvl2.lvl2:PersistentLevel.DirectionalLight_UAID_002B67EC6648EA6A01_1277703279
+[2023.02.28-13.21.05:358][312]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.02.28-13.21.05:358][312]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.02.28-13.21.05:358][312]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/lvl2.lvl2:PersistentLevel.SkyLight_0
+[2023.02.28-13.21.05:358][312]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/lvl2.lvl2:PersistentLevel.SkyLight_0
+[2023.02.28-13.21.05:676][341]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.02.28-13.21.05:676][341]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.02.28-13.21.05:678][341]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/lvl2.lvl2:PersistentLevel.SkyLight_UAID_002B67EC6648EA6A01_1281517280
+[2023.02.28-13.21.05:678][341]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/lvl2.lvl2:PersistentLevel.SkyLight_UAID_002B67EC6648EA6A01_1281517280
+[2023.02.28-13.21.36:782][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.02.28-13.21.36:782][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.02.28-13.21.36:782][762]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/lvl2.lvl2:PersistentLevel.ExponentialHeightFog_0
+[2023.02.28-13.21.36:782][762]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/lvl2.lvl2:PersistentLevel.ExponentialHeightFog_0
+[2023.02.28-13.21.37:064][791]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.02.28-13.21.37:064][791]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.02.28-13.21.37:065][791]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/lvl2.lvl2:PersistentLevel.ExponentialHeightFog_UAID_002B67EC6648EA6A01_1312905281
+[2023.02.28-13.21.37:065][791]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/lvl2.lvl2:PersistentLevel.ExponentialHeightFog_UAID_002B67EC6648EA6A01_1312905281
+[2023.02.28-13.21.47:939][954]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.02.28-13.21.47:939][954]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.02.28-13.21.47:939][954]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/lvl2.lvl2:PersistentLevel.SkyAtmosphere_0
+[2023.02.28-13.21.47:939][954]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/lvl2.lvl2:PersistentLevel.SkyAtmosphere_0
+[2023.02.28-13.21.48:298][992]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.02.28-13.21.48:298][992]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.02.28-13.21.48:300][992]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/lvl2.lvl2:PersistentLevel.SkyAtmosphere_UAID_002B67EC6648EA6A01_1324139282
+[2023.02.28-13.21.48:300][992]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/lvl2.lvl2:PersistentLevel.SkyAtmosphere_UAID_002B67EC6648EA6A01_1324139282
+[2023.02.28-13.21.55:323][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.02.28-13.21.55:590][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.28-13.21.55:669][766]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/lvl2/1/5W/305LYEI7LK1EOOH8BU38VT
+[2023.02.28-13.21.55:669][766]LogSavePackage: Moving '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Saved/305LYEI7LK1EOOH8BU38VT0E41036241684CE48DE5CA9184CB23FD.tmp' to '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/__ExternalActors__/lvl2/1/5W/305LYEI7LK1EOOH8BU38VT.uasset'
+[2023.02.28-13.21.55:671][766]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/lvl2/4/DQ/ALXAD60DEJNGCO4HSUMEXW
+[2023.02.28-13.21.55:672][766]LogSavePackage: Moving '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Saved/ALXAD60DEJNGCO4HSUMEXW8BE60D864A391F95BCAEB9A7AC2BD295.tmp' to '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/__ExternalActors__/lvl2/4/DQ/ALXAD60DEJNGCO4HSUMEXW.uasset'
+[2023.02.28-13.21.55:674][766]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/lvl2/3/IK/D1GDAB17JV35GW587YX3D9
+[2023.02.28-13.21.55:674][766]LogSavePackage: Moving '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Saved/D1GDAB17JV35GW587YX3D9D119C4A24FC79FBE435DA3A63DF3095F.tmp' to '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/__ExternalActors__/lvl2/3/IK/D1GDAB17JV35GW587YX3D9.uasset'
+[2023.02.28-13.21.55:676][766]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/lvl2/2/83/YOCCVQCOCUKY552WUU9BLO
+[2023.02.28-13.21.55:677][766]LogSavePackage: Moving '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Saved/YOCCVQCOCUKY552WUU9BLO474A1FC24C775153E13818A91B3EC14A.tmp' to '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/__ExternalActors__/lvl2/2/83/YOCCVQCOCUKY552WUU9BLO.uasset'
+[2023.02.28-13.21.55:993][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 403 ms (total: 532 ms)
+[2023.02.28-13.21.55:996][766]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.28-13.21.55:996][766]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/lvl2.lvl2:PersistentLevel.SkyAtmosphere_UAID_002B67EC6648EA6A01_1324139282
+[2023.02.28-13.21.55:996][766]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/lvl2.lvl2:PersistentLevel.ExponentialHeightFog_UAID_002B67EC6648EA6A01_1312905281
+[2023.02.28-13.21.55:996][766]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/lvl2.lvl2:PersistentLevel.SkyLight_UAID_002B67EC6648EA6A01_1281517280
+[2023.02.28-13.21.55:996][766]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/lvl2.lvl2:PersistentLevel.DirectionalLight_UAID_002B67EC6648EA6A01_1277703279
