@@ -1114,3 +1114,55 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.28-13.15.38:514][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms
 [2023.02.28-13.15.38:516][ 63]AssetCheck: New page: Asset Save: VasinLVL
 [2023.02.28-13.15.38:516][ 63]LogContentValidation: Display: Validating /Script/Engine.World /Game/VasinLVL.VasinLVL
+[2023.02.28-13.18.22:933][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.02.28-13.18.23:027][882]LogAssetEditorSubsystem: Opening Asset editor for World /Game/lvl2.lvl2
+[2023.02.28-13.18.23:027][882]Cmd: MAP LOAD FILE="../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/lvl2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.02.28-13.18.23:027][882]LightingResults: New page: Lighting Build
+[2023.02.28-13.18.23:027][882]LoadErrors: New page: Loading map: lvl2.umap
+[2023.02.28-13.18.23:065][882]LogWorld: UWorld::CleanupWorld for VasinLVL, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.18.23:065][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.18.23:065][882]MapCheck: New page: Map Check
+[2023.02.28-13.18.23:065][882]LightingResults: New page: Lighting Build
+[2023.02.28-13.18.23:071][882]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.28-13.18.23:072][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.28-13.18.23:074][882]LogWorld: UWorld::CleanupWorld for lvl2, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.18.23:074][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.18.23:080][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.02.28-13.18.23:087][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.02.28-13.18.23:091][882]LogAudio: Display: Audio Device (ID: 1) registered with world 'lvl2'.
+[2023.02.28-13.18.23:091][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.18.23:091][882]LogAIModule: Creating AISystem for world lvl2
+[2023.02.28-13.18.23:092][882]LogWorldPartition: ULevel::OnLevelLoaded(lvl2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.28-13.18.23:092][882]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.28-13.18.23:092][882]LogWorldPartition: UWorldPartition::Initialize(Asset=lvl2, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.28-13.18.23:094][882]LogContentBundle: [Container: lvl2] Creating new contrainer.
+[2023.02.28-13.18.23:094][882]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 535 ms)
+[2023.02.28-13.18.23:158][882]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.28-13.18.23:168][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.28-13.18.23:176][882]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.28-13.18.23:176][882]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.202ms to complete.
+[2023.02.28-13.18.23:176][882]LogFileHelpers: Loading map 'lvl2' took 0.149
+[2023.02.28-13.18.32:087][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.28-13.18.32:176][907]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VasinLVL.VasinLVL
+[2023.02.28-13.18.32:176][907]Cmd: MAP LOAD FILE="../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/VasinLVL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.02.28-13.18.32:177][907]LightingResults: New page: Lighting Build
+[2023.02.28-13.18.32:177][907]LoadErrors: New page: Loading map: VasinLVL.umap
+[2023.02.28-13.18.32:217][907]LogWorld: UWorld::CleanupWorld for lvl2, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.18.32:217][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.18.32:221][907]LogContentBundle: [Container: lvl2] Deleting container.
+[2023.02.28-13.18.32:221][907]MapCheck: New page: Map Check
+[2023.02.28-13.18.32:221][907]LightingResults: New page: Lighting Build
+[2023.02.28-13.18.32:229][907]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.28-13.18.32:230][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.02.28-13.18.32:231][907]LogWorld: UWorld::CleanupWorld for VasinLVL, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.18.32:231][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.18.32:238][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.02.28-13.18.32:245][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.28-13.18.32:248][907]LogAudio: Display: Audio Device (ID: 1) registered with world 'VasinLVL'.
+[2023.02.28-13.18.32:248][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.18.32:249][907]LogAIModule: Creating AISystem for world VasinLVL
+[2023.02.28-13.18.32:288][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.28-13.18.32:297][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.28-13.18.32:305][907]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.28-13.18.32:305][907]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2023.02.28-13.18.32:305][907]LogFileHelpers: Loading map 'VasinLVL' took 0.128
