@@ -1089,3 +1089,28 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.28-13.13.03:916][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
 [2023.02.28-13.13.03:917][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/VasinLVL.VasinLVL:PersistentLevel.StaticMeshActor_7
 [2023.02.28-13.13.03:918][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/VasinLVL.VasinLVL:PersistentLevel.StaticMeshActor_7
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEEE0ED34-4584-B724-3C30-F383672352F0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=3ee7f8ea4bbbcbfc6e77a4a05be63897%7C720957a481c14d3e943af4ff6037cba6%7C5232fc91-99d8-4ccb-b8c2-8bde989ef968&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 0 (Found bundle for host: 0x7741f160000 [serially])
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 1 (Re-using existing connection #0 with host datarouter.ol.epicgames.com)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.64.140) port 443 (#0))
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 7 (Closing connection 0)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: 0000077479489100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.02.28-13.14.45:165][427]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEEE0ED34-4584-B724-3C30-F383672352F0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=3ee7f8ea4bbbcbfc6e77a4a05be63897%7C720957a481c14d3e943af4ff6037cba6%7C5232fc91-99d8-4ccb-b8c2-8bde989ef968&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.02.28-13.14.51:704][446]LogDerivedDataCache: C:/Users/Nikdivh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:18.135 and deleted 0 files with total size 0 MiB. Scanned 10069 files in 9855 folders with total size 870 MiB.
+[2023.02.28-13.15.38:258][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.02.28-13.15.38:385][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.28-13.15.38:478][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VasinLVL" FILE="../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/VasinLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.28-13.15.38:483][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.02.28-13.15.38:489][ 63]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.005410 seconds
+[2023.02.28-13.15.38:492][ 63]LogSerialization: UsePackageTrailer: 'true'
+[2023.02.28-13.15.38:496][ 63]LogSavePackage: Moving output files for package: /Game/VasinLVL
+[2023.02.28-13.15.38:497][ 63]LogSavePackage: Moving '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Saved/VasinLVLE0D1569D4D85CCB9D3F9F891CDAEF622.tmp' to '../../../../../../Users/Nikdivh/Documents/GitHub/chlabirint/MyProject5/Content/VasinLVL.umap'
+[2023.02.28-13.15.38:507][ 63]LogFileHelpers: Saving map 'VasinLVL' took 0.029
+[2023.02.28-13.15.38:514][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms
+[2023.02.28-13.15.38:516][ 63]AssetCheck: New page: Asset Save: VasinLVL
+[2023.02.28-13.15.38:516][ 63]LogContentValidation: Display: Validating /Script/Engine.World /Game/VasinLVL.VasinLVL
